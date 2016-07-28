@@ -1,0 +1,192 @@
+.fl{float:left;}
+.fr{float:right;}
+.clearFix:after{content:'';clear:both;display:block;}
+.clearFix{zoom:1;}
+.part li{
+    font-size:14px;
+    margin-bottom:20px;
+    list-style:none;
+}
+.part2 li{
+    margin-bottom:16px;
+    height:30px;
+    line-height:30px;
+}
+h4{
+    font-size:18px;
+    font-weight:bold;
+    color:#fff;
+    background:#f19700;
+    height:42px;
+    line-height:42px;
+    width:42px;
+    border-radius:50%;
+    text-align:center;
+    float:left;
+}
+h5{
+    float:left;
+    margin-left:14px;
+    font-size:16px;
+    font-weight:bold;
+    line-height:42px;
+    height:42px;
+}
+h6{font-size:14px;
+    font-weight:bold;
+    margin-left:8px;
+    width:84px;
+    margin-right:16px;
+}
+.part2 li{
+    height:34px;
+}
+.part2 h6{
+    width:70px;
+    margin-right:16px;
+}
+.part2 input{
+    margin-right:18px;
+    height:30px;
+}
+.part2 .checkbox{
+    margin:8px 28px 0px 12px;
+    float:left;
+    width:16px;
+    height:16px;
+    border:1px solid #ced3d6;
+}
+.inp{
+    border-radius:3px;
+    padding-left:8px;
+    border:1px solid #ced3d6;
+    width:740px;
+    height:78px;
+}
+.choose{
+    width:196px;
+    height:34px;
+    color:#767a7e;
+    margin-left:14px;
+    border:1px solid #ced3d6;
+    border-radius:3px;
+}
+
+table{
+    border:1px solid #dce5ef;
+    width:840px;
+    text-align:center;
+    margin-left:10px;
+}
+table>thead{
+    background:#f0f7ff
+}
+td{
+    border-bottom:1px solid #dce5ef;
+    border-right:1px solid #dce5ef;
+}
+tbody > tr{
+    height:40px;
+}
+tbody > tr > td > input{
+    height:28px;
+    width:210px;
+    border-radius:3px;
+    border:1px solid #ced3d6;
+}
+.checkCricle{
+    width:13px;
+    height:13px;
+    border-radius:50%;
+    border:1px solid #f19700;
+    margin-top:4px;
+}
+.checkPoint{
+    width:7px;
+    height:7px;
+    background:#f19700;
+    border-radius:50%;
+    margin:3px auto;
+}
+.checked{
+    display:block;
+}
+.off{
+    display:none;
+}
+.part1> ul, .part2> ul, .part3> ul{
+    margin-left:20px;
+    border-left:1px solid #f19700;
+}
+
+
+.smaTable{
+    width:390px;
+    height:120px;
+    margin-left:-20px;
+    margin-top:4px;
+}
+
+
+
+.btn{
+    background:#f19700;
+    color:#fff;
+    border-radius:3px;
+    text-align:center;
+    margin-left:11px;
+}
+.bottBtn{
+    width:134px;
+    height:44px;
+    border-radius:3px;
+    font-size:16px;
+    line-height:44px;
+    text-align:center;
+    margin-left:11px;
+}
+.btnTop{
+    font-size:12px;
+    line-height:30px;
+    width:90px;
+    height:30px;
+}
+.btnOn{
+    background:#fff;
+    border:1px solid #f19700;
+    color:#f19700;
+
+}
+.btn:hover{
+    background:#c67d03;
+    color:#fff;
+}
+
+.imgPack{
+    width:30px;
+    height:30px;
+}
+.imgRight{
+    width:14px;
+    height:14px;
+    display:none;
+}
+.scrollBar{
+    width:8px;
+    height:150px;
+    background:#9cbbd2;
+    border-radius:5px;
+    margin:0 auto;
+    position:absolute;
+    left:0;
+    top:0;
+}
+.show{
+    display:block;
+}
+
+.part1 > ul >li >textarea{
+    padding:10px;
+    width:720px;
+    height:58px;
+}
