@@ -1,242 +1,441 @@
-<!DOCTYPE html>
-<html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-  <meta charset="utf-8">
-  
-  <title>Dragon_SZ</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="沈振龙的个人博客">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Dragon_SZ">
-<meta property="og:url" content="http://blog.longlongblog.cn/index.html">
-<meta property="og:site_name" content="Dragon_SZ">
-<meta property="og:description" content="沈振龙的个人博客">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Dragon_SZ">
-<meta name="twitter:description" content="沈振龙的个人博客">
-  
-    <link rel="alternative" href="/atom.xml" title="Dragon_SZ" type="application/atom+xml">
-  
-  
-    <link rel="icon" href="/favicon.png">
-  
-  <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
-  <link rel="stylesheet" href="/css/style.css" type="text/css">
-  
-
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>大锤资产</title>
+    <link rel="stylesheet" type="text/css" href="css/base.css" />
+    <link href="css/upload.css" type="text/css" rel="stylesheet"/>
+    <script src="js/jquery-1.7.2.js"></script>
 </head>
+
+
 <body>
-  <div id="container">
-    <div id="wrap">
-      <header id="header">
-  <div id="banner"></div>
-  <div id="header-outer" class="outer">
-    <div id="header-title" class="inner">
-      <h1 id="logo-wrap">
-        <a href="/" id="logo">Dragon_SZ</a>
-      </h1>
-      
-        <h2 id="subtitle-wrap">
-          <a href="/" id="subtitle">http://blog.longlongblog.cn</a>
-        </h2>
-      
+
+<div id="wrap">
+
+    <div id="header">
+        <div class="topbar">
+            <div class="topbar_m">
+                <div class="topbar_l">
+                    欢迎致电：400-068-1176  服务时间：9:00-21:00
+                </div>
+                <div class="topbar_r">
+
+
+                    <a href="register/user/register.do" class="t1">注册</a>
+                    <a href="register/index.do" class="t2">登录</a>
+
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+        <div class="topbox">
+            <div class="topbox_m">
+                <div class="logo"><h1><img src="img/logo.png" /></h1></div>
+                <div>
+                    <select style="margin-top:28px;" class="choose">
+                        <option>请选择</option>
+                    </select>
+                </div>
+                <div class="nav">
+                    <ul class="navMain">
+                        <li><a href="javascript:'';" >首页</a></li>
+                        <li><a href="javascript:'';"  class="on">我的委单</a></li>
+                        <div class="clear"></div>
+                    </ul>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+
     </div>
-    <div id="header-inner" class="inner">
-      <nav id="main-nav">
-        <a id="main-nav-toggle" class="nav-icon"></a>
-        
-          <a class="main-nav-link" href="/">Home</a>
-        
-          <a class="main-nav-link" href="/archives">Archives</a>
-        
-      </nav>
-      <nav id="sub-nav">
-        
-          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
-        
-        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
-      </nav>
-      <div id="search-form-wrap">
-        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" results="0" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://blog.longlongblog.cn"></form>
-      </div>
+
+    <div id="mainContent" style="min-height:2000px;">
+        <div class="middleContent" style="width:1000px;margin:0 auto;">
+            <div class="currentLocation" style="line-height:32px;height:32px;margin-bottom:2px;">
+                <a href="javascript:'';">我的委单></a>
+                <a href="javascript:'';">上传委案</a>
+            </div>
+            <p style="height:76px;background:#f9fcff;border-bottom:1px solid #f4f6f8;line-height:76px;padding-left:42px;font-size:20px;font-weight:bold;">资产包导入</p>
+
+            <div class="AssetPackage" style="background:#fff;width:948px;height:2247px;padding:32px 26px;">
+                <div class="clearFix part part1" >
+                    <div class="partTop clearFix">
+                        <h4 >1</h4>
+                        <h5 >委单基本信息</h5>
+                    </div>
+                        <ul style="height:602px;width:100%;padding:22px 0 14px 36px;">
+                            <li class="clearFix" style="margin-bottom:30px;">
+                                <span style="float:left;color:red;">*</span>
+                                <h6 style="font-style:normal;float:left;margin-left:3px;">委案名称</h6>
+                                <input style="float:left;width:190px;height:34px;" class="inp" placeholder="例如：产品名称-X月-X期" id="CaseName"/>
+                            </li>
+                            <li class="clearFix" >
+                                <h6 class="fl">产品说明</h6>
+                                <textarea  class="inp fl" ></textarea>
+                            </li>
+                            <li class="clearFix">
+                                <h6 class="fl">减免政策</h6>
+                                <textarea  class="inp fl" ></textarea>
+                            </li>
+                            <li class="clearFix">
+                                <h6 style="font-style:normal;float:left;">禁言禁行</h6>
+                                <textarea  class="inp fl" ></textarea>
+                            </li>
+                            <li class="clearFix">
+                                <h6 style="font-style:normal;float:left;">催收短信模板</h6>
+                                <textarea  class="inp fl" ></textarea>
+                            </li>
+                            <li class="clearFix">
+                                <h6 style="font-style:normal;float:left;">备注信息</h6>
+                                <textarea  class="inp fl" ></textarea>
+                            </li>
+                            <li>
+                                <div class="btn btnTop">
+                                    保存并继续
+                                </div>
+                            </li>
+
+                        </ul>
+                </div>
+                <div class="clearFix part part2" >
+                    <div class="partTop clearFix">
+                        <h4 style="">2</h4>
+                        <h5 style="">委单基本信息</h5>
+                    </div>
+                    <ul style="height:290px;width:100%;padding:14px 0 11px 36px;">
+                        <li class="clearFix">
+                            <div  class=" checkbox" style="">
+                                <img src="img/right.png" class="imgRight"/>
+                            </div>
+                            <img alt="app" src="img/app.png" style="width:30px;height:30px;float:left;"/>
+                            <h6 style="font-style:normal;float:left;">APP还款</h6>
+                            <div class="off fl"></div>
+                        </li>
+                        <li class="clearFix">
+                            <div type="checkbox" class=" checkbox" style="float:left;">
+                                <img src="img/right.png" class="imgRight "/>
+                            </div>
+                            <img alt="" src="img/wechat.png" class="fl imgPack"/>
+                            <h6 style="font-style:normal;float:left;">微信还款</h6>
+                            <div class="fl off ">
+                                <input style="width:196px;" class="inp " placeholder="请输入微信号" />
+                                <input style="width:196px;" class="inp " placeholder="请输入微信昵称" />
+                            </div>
+
+                        </li>
+                        <li class="clearFix">
+                            <div type="checkbox" class=" checkbox" style="float:left;">
+                                <img src="img/right.png" class="imgRight"/>
+                            </div>
+                            <img alt="pay" src="img/pay.png" class="imgPack fl"/>
+                            <h6 style="font-style:normal;float:left;width:70px;">支付宝还款</h6>
+                            <div class="fl off">
+                                <input style="width:196px;" class="inp " placeholder="请输入支付宝账号" />
+                                <input style="width:196px;" class="inp" placeholder="请输入支付宝户名" />
+                            </div>
+
+                        </li>
+                        <li class="clearFix">
+                            <div class=" checkbox" style="float:left;">
+                                <img src="img/right.png" class="imgRight"/>
+                            </div>
+                            <img alt="微信" src="img/card.png" style="width:30px;height:30px;" class="fl imgPack"/>
+                            <h6 style="font-style:normal;" class="fl">银行转账</h6>
+                            <div class="fl off">
+                                <input style="width:196px;" class="inp "  placeholder="请输入开户银行及其支行" />
+                                <input style="width:196px;" class="inp "  placeholder="请输入账号" />
+                                <input style="width:176px;" class="inp " placeholder="请输入户名" />
+                            </div>
+
+                        </li>
+                        <li class="clearFix">
+                            <div type="checkbox" class=" checkbox" style="float:left;">
+                                <img src="img/right.png" class="imgRight"/>
+                            </div>
+                            <img alt="微信" src="img/shop.png" style="width:30px;height:30px;float:left;"/>
+                            <h6 style="font-style:normal;float:left;">店面转账</h6>
+                            <div class="off fl"></div>
+                        </li>
+                        <li>
+                            <div class="btn btnTop">
+                                保存并继续
+                            </div>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="clearFix part part3" >
+                    <div class="partTop clearFix">
+                        <h4 >3</h4>
+                        <h5 >委单基本信息</h5>
+                    </div>
+                    <ul style="height:650px;width:100%;padding:10px 0 11px 36px;">
+                        <li class="clearFix">
+
+                            <h6 style="font-style:normal;float:left;">选择债务类型</h6>
+                            <select class="choose">
+                                <option>请选择</option>
+                            </select>
+                        </li>
+                        <li class="clearFix">
+                            <h6 style="font-style:normal;float:left;">设置对照关系</h6>
+
+                        </li>
+                        <li style="width:850px;overflow:hidden;">
+                            <table style="border-bottom:none;">
+                                <thead>
+                                    <tr style="background:#f0f7ff;height:30px;">
+                                        <td style="width:370px;">字段说明</td>
+                                        <td style="width:336px;">大锤模板列头</td>
+                                        <td style="width:336px;border-right:none;">委单方文件列头</td>
+                                        <td style="width:10px;"></td>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td style="width:370px;">填写债务人姓名全名，与身份证相符</td>
+                                        <td style="width:336px;"><span style="color:red;">*</span>债务人姓名</td>
+                                        <td style="width:326px;"><input type="text" ></td>
+                                        <td rowspan="10" style="background:#eff0f0;width:10px;">
+                                            <div style="position:relative;">
+                                                <div class="scrollBar" id="scrollBar"></div>
+                                            </div>
+
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>填写债务人姓名全名，与身份证相符</td>
+                                        <td><span style="color:red;">*</span>债务人姓名</td>
+                                        <td><input type="text"></td>
+                                    </tr>
+                                    <tr>
+                                        <td>填写债务人姓名全名，与身份证相符</td>
+                                        <td><span style="color:red;">*</span>债务人姓名</td>
+                                        <td><input type="text" ></td>
+                                    </tr>
+                                    <tr>
+                                        <td>填写债务人姓名全名，与身份证相符</td>
+                                        <td><span style="color:red;">*</span>债务人姓名</td>
+                                        <td><input type="text" ></td>
+                                    </tr>
+                                    <tr>
+                                        <td>填写债务人姓名全名，与身份证相符</td>
+                                        <td><span style="color:red;">*</span>债务人姓名</td>
+                                        <td><input type="text" ></td>
+                                    </tr>
+                                    <tr>
+                                        <td>填写债务人姓名全名，与身份证相符</td>
+                                        <td><span style="color:red;">*</span>债务人姓名</td>
+                                        <td><input type="text" ></td>
+                                    </tr>
+                                    <tr>
+                                        <td>填写债务人姓名全名，与身份证相符</td>
+                                        <td><span style="color:red;">*</span>债务人姓名</td>
+                                        <td><input type="text" ></td>
+                                    </tr>
+                                    <tr>
+                                        <td>填写债务人姓名全名，与身份证相符</td>
+                                        <td><span style="color:red;">*</span>债务人姓名</td>
+                                        <td><input type="text" ></td>
+                                    </tr>
+                                    <tr>
+                                        <td>填写债务人姓名全名，与身份证相符</td>
+                                        <td><span style="color:red;">*</span>债务人姓名</td>
+                                        <td><input type="text" ></td>
+                                    </tr>
+                                    <tr>
+                                        <td>填写债务人姓名全名，与身份证相符</td>
+                                        <td><span style="color:red;">*</span>债务人姓名</td>
+                                        <td><input type="text" ></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </li>
+
+                        <li >
+                           <a href="javascript:'';" style="margin-left:11px;color:#5496dc;">上传文件</a>
+                        </li>
+                        <li>
+                            <div class="btn btnTop">
+                                保存并继续
+                            </div>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class=" part part4" >
+                    <div class="partTop clearFix">
+                        <h4 >4</h4>
+                        <h5 >设置费率及委托期限</h5>
+                    </div>
+                    <div class="clearFix">
+                        <ul  class="fl">
+                            <li class="clearFix" style="margin-top:20px;">
+
+                                <h6 style="font-style:normal;float:left;">设置委托费率</h6>
+                                <ul style="float:left;">
+                                    <li class="clearFix">
+                                        <div class="checkCricle fl" >
+                                            <div class="checkPoint off"></div>
+                                        </div>
+                                        <h6 class="fl">按整包设置</h6>
+                                        <input type="text" class="inp fl" style="width:66px;height:32px;margin-right:10px;margin-top:-6px;"/>
+                                        <span class="fl">%</span>
+                                        <div class="fl heShow"></div>
+                                    </li>
+                                    <li class="clearFix">
+                                        <div class="checkCricle fl" >
+                                            <div class="checkPoint off"></div>
+                                        </div>
+                                        <h6 class="fl">按账龄设置</h6>
+                                        <div class="fl heShow"></div>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="clearFix" style="margin-top:20px;">
+
+                                <h6 class="fl">设置委托费率</h6>
+                                <input type="text" class="inp fl" style="width:66px;height:32px;margin-top:-6px;"/>
+                                <h6 class="fl">天</h6>
+                            </li>
+                            <li class="clearFix" style="margin-top:100px;">
+                                <div class="fl bottBtn btn btnOn" >
+                                    保存委单
+                                </div>
+                                <div class="fl bottBtn btn">
+                                    提交委单
+                                </div>
+                            </li>
+
+                        </ul>
+                        <div class="fl ">
+                            <ul style="margin-top:20px;width:540px;padding-left:20px;">
+                                    <li class="clearFix" style="height:36px;">
+                                        <div class="checkCricle fl" >
+                                            <div class="checkPoint off" ></div>
+                                        </div>
+                                        <h6 class="fl">整包设置</h6>
+                                        <div class="fl heShow"></div>
+
+                                    </li>
+                                    <li class="clearFix" style="height:36px;">
+                                        <div class="checkCricle fl" >
+                                            <div class="checkPoint checked" ></div>
+                                        </div>
+                                        <h6 class="fl">按账龄设置</h6>
+                                        <table class="fl smaTable heShow" >
+                                            <thead>
+                                                <tr>
+                                                    <td style="width:120px;">账龄</td>
+                                                    <td style="width:120px;">费率（%）</td>
+                                                    <td style="width:150px;">行业平均律（%）</td>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>M1</td>
+                                                    <td><input type="text" class="inp" style="width:104px;height:34px;"/></td>
+                                                    <td>10</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>M2</td>
+                                                    <td><input type="text" class="inp" style="width:104px;height:34px;"/></td>
+                                                    <td>20</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+
+                                    </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
-</header>
-      <div class="outer">
-        <section id="main">
-  
-    <article id="post-phpcgi" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2015/12/07/phpcgi/" class="article-date">
-  <time datetime="2015-12-07T11:10:25.000Z" itemprop="datePublished">2015-12-07</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2015/12/07/phpcgi/">浅谈 CGI, FastCGI, php-fpm, php-cli</a>
-    </h1>
-  
 
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h3 id="CGI">CGI</h3><p>&nbsp;&nbsp;&nbsp;&nbsp;web server（比如说nginx）只是内容的分发者。比如，如果请求/index.html，那么web server会去文件系统中找到这个文件，发送给浏览器，这里分发的是静态数据。好了，如果现在请求的是/index.php，根据配置文件，nginx知道这个不是静态文件，需要去找PHP解析器来处理，那么他会把这个请求简单处理后交给PHP解析器。Nginx会传哪些数据给PHP解析器呢？url要有吧，查询字符串也得有吧，POST数据也要有，HTTP header不能少吧，好的，CGI就是规定要传哪些数据、以什么样的格式传递给后方处理这个请求的协议。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;当web server收到/index.php这个请求后，会启动对应的CGI程序，这里就是PHP的解析器。接下来PHP解析器会解析php.ini文件，初始化执行环境，然后处理请求，再以规定CGI规定的格式返回处理后的结果，退出进程。web server再把结果返回给浏览器。</p>
-<h3 id="FastCGI">FastCGI</h3><p>&nbsp;&nbsp;&nbsp;&nbsp;Fastcgi是用来提高CGI程序性能的。 提高性能，那么CGI程序的性能问题在哪呢？”PHP解析器会解析php.ini文件，初始化执行环境”，就是这里了。标准的CGI对每个请求都会执行这些步骤（不闲累啊！启动进程很累的说！），所以处理每个时间的时间会比较长。这明显不合理嘛！那么Fastcgi是怎么做的呢？首先，Fastcgi会先启一个master，解析配置文件，初始化执行环境，然后再启动多个worker。当请求过来时，master会传递给一个worker，然后立即可以接受下一个请求。这样就避免了重复的劳动，效率自然是高。而且当worker不够用时，master可以根据配置预先启动几个worker等着；当然空闲worker太多时，也会停掉一些，这样就提高了性能，也节约了资源。这就是fastcgi的对进程的管理。 </p>
-<h3 id="php-cgi">php-cgi</h3><p>&nbsp;&nbsp;&nbsp;&nbsp;PHP的解释器是php-cgi。php-cgi只是个CGI程序，他自己本身只能解析请求，返回结果，不会进程管理（皇上，臣妾真的做不到啊！）所以就出现了一些能够调度php-cgi进程的程序，比如说由lighthttpd分离出来的spawn-fcgi。好了PHP-FPM也是这么个东东，在长时间的发展后，逐渐得到了大家的认可。</p>
-<h3 id="php-fpm">php-fpm</h3><p>&nbsp;&nbsp;&nbsp;&nbsp;php-fpm是fastcgi进程的管理器，用来管理fastcgi进程的。php-fpm的管理对象是php-cgi。但不能说php-fpm是fastcgi进程的管理器，因为前面说了fastcgi是个协议，似乎没有这么个进程存在，就算存在php-fpm也管理不了他。</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;在修改php.ini之后，php-cgi进程的确是没办法平滑重启的。php-fpm对此的处理机制是新的worker用新的配置，已经存在的worker处理完手上的活就可以歇着了，通过这种机制来平滑过度。php-cgi只是解释PHP脚本的程序而已。 </p>
-
-      
+    <div id="footer">
+        <div class="footbox">
+            <div class="footbox_l">
+                <div class="fnav"><a href="javascript:'';" >关于我们</a> &nbsp;|&nbsp;  <a href="javascript:'';" >联系我们</a></div>
+                <div class="fcopy">Copyright 2016 大锤资产&nbsp;<span style="color:#595d64;">|</span>&nbsp;京ICP备15025102号-2
+                    <div style="display: none;"></div>
+                </div>
+            </div>
+            <div class="footbox_r">
+                <ul>
+                    <li class="footbox_r1">公司邮箱<br /><a href="javascript:'';">market@dachuizichan.com</a></li>
+                    <li class="footbox_r2">商务合作<br /> 010-56282250</li>
+                </ul>
+            </div>
+            <div class="clear"></div>
+        </div>
     </div>
-    <footer class="article-footer">
-      <a data-url="http://blog.longlongblog.cn/2015/12/07/phpcgi/" data-id="cihwsx06100002exn9pn9ax1q" class="article-share-link">Share</a>
-      
-      
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/PHP，CGI/">PHP，CGI</a></li></ul>
 
-    </footer>
-  </div>
-  
-</article>
-
-
-  
-    <article id="post-test" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2015/11/30/test/" class="article-date">
-  <time datetime="2015-11-29T16:16:53.000Z" itemprop="datePublished">2015-11-30</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2015/11/30/test/">博客迁移</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h3 id="我就是测试一下，这个hexo好不好用。">我就是测试一下，这个hexo好不好用。</h3><pre><code>include &lt;iostream&gt;;
-<span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;
-<span class="function"><span class="keyword">void</span> <span class="title">main</span><span class="params">()</span> </span>{
-        <span class="built_in">cout</span>&lt;&lt;<span class="string">"Hello, world"</span>&lt;&lt;endl;
-}
-</code></pre><p>请访问个人博客：<a href="http://longlongblog.tk" target="_blank" rel="external">http://longlongblog.tk</a></p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://blog.longlongblog.cn/2015/11/30/test/" data-id="cihwsx06p00032exnphqsn4u1" class="article-share-link">Share</a>
-      
-      
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/博客迁移/">博客迁移</a></li></ul>
-
-    </footer>
-  </div>
-  
-</article>
-
-
-  
-  
-</section>
-        
-          <aside id="sidebar">
-  
-    
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Tags</h3>
-    <div class="widget">
-      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/PHP，CGI/">PHP，CGI</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/博客迁移/">博客迁移</a><span class="tag-list-count">1</span></li></ul>
-    </div>
-  </div>
-
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Tag Cloud</h3>
-    <div class="widget tagcloud">
-      <a href="/tags/PHP，CGI/" style="font-size: 10px;">PHP，CGI</a> <a href="/tags/博客迁移/" style="font-size: 10px;">博客迁移</a>
-    </div>
-  </div>
-
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Archives</h3>
-    <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/12/">十二月 2015</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/11/">十一月 2015</a><span class="archive-list-count">1</span></li></ul>
-    </div>
-  </div>
-
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Recents</h3>
-    <div class="widget">
-      <ul>
-        
-          <li>
-            <a href="/2015/12/07/phpcgi/">浅谈 CGI, FastCGI, php-fpm, php-cli</a>
-          </li>
-        
-          <li>
-            <a href="/2015/11/30/test/">博客迁移</a>
-          </li>
-        
-      </ul>
-    </div>
-  </div>
-
-  
-</aside>
-        
-      </div>
-      <footer id="footer">
-  
-  <div class="outer">
-    <div id="footer-info" class="inner">
-      &copy; 2015 Dragon_SZ<br>
-      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
-    </div>
-  </div>
-</footer>
-    </div>
-    <nav id="mobile-nav">
-  
-    <a href="/" class="mobile-nav-link">Home</a>
-  
-    <a href="/archives" class="mobile-nav-link">Archives</a>
-  
-</nav>
-    
-
-<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-
-
-  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css" type="text/css">
-  <script src="/fancybox/jquery.fancybox.pack.js" type="text/javascript"></script>
-
-
-<script src="/js/script.js" type="text/javascript"></script>
-
-  </div>
+</div>
 </body>
 </html>
+<script>
+    $(function(){
+       $('.bottBtn').click(function(){
+           $(this).addClass('btnOn').siblings().removeClass('btnOn');
+       });
+        var bOk = true;
+        $('.btnTop').click(function(){
+            if(bOk){
+                $(this).text('修改');
+                bOk = false;
+            }else{
+                $(this).text('保存并继续');
+                bOk = true;
+            }
+        });
+
+        var aCheck = $('.part2 ul li .checkbox');
+        var aRight = $('.part2 ul li .checkbox .imgRight');
+        var aDiv = $('.part2 ul li  .off');
+        for(var i = 0;i<aCheck.length;i++){
+            aCheck[i].index = i;
+            aCheck[i].onclick = function(){
+                for(var i=0; i < aCheck.length; i++){
+                    aRight[i].style.display = 'none';
+                    aDiv[i].style.display = 'none';
+                }
+                aRight[this.index].style.display = 'block';
+                aDiv[this.index].style.display = 'block';
+            };
+        }
+        var aChoose = $('.part4 .checkCricle');
+        var aPoints = $('.part4 .checkPoint');
+        var aShow = $('.part4 .heShow');
+        for(var i = 0;i<aChoose.length;i++){
+            aChoose[i].index = i;
+            aChoose[i].onclick = function(){
+                for(var i=0; i < aChoose.length; i++){
+                    aPoints[i].style.display = 'none';
+                    aShow [i].style.display = 'none';
+                }
+                aPoints[this.index].style.display = 'block';
+                aShow [this.index].style.display = 'block';
+            };
+        }
+        var oScrollBar = $('.scrollBar');
+        oScrollBar.onmousedown = function(ev){
+            var oEvent = ev ||event;
+            var disY = oEvent.clientY - oDiv.offsetTop;
+            alert(2);
+            document.onmousemove = function(ev){
+                var oEvent = ev||event;
+                oScrollBar.style.top = oEvent.clientY - disY +'px';
+            };
+
+            document.onmouseup = function(){
+                    document.onmousemove = null;
+                    document.onmouseup = null;
+            };
+        };
+
+    });
+</script>
